@@ -1,5 +1,4 @@
 <script>
-	export let data;
 </script>
 
 <div
@@ -17,15 +16,6 @@
 		<span class="w-[1px] h-8 bg-ctp-subtext1"></span>
 		<a href="/about" class="hover:text-ctp-subtext0 transition-colors duration-300">About Us</a>
 	</div>
-	<div>
-		{#if !data}
-			<div class="flex flex-row items-center justify-center">
-				<a href="/login" class=" hover:text-ctp-subtext0 transition-colors duration-300">login</a>
-				<div class="m-2">or</div>
-				<a href="signup" class=" hover:text-ctp-subtext0 transition-colors duration-300">signup</a>
-			</div>
-		{:else}
-			test 1
-		{/if}
-	</div>
+
+	<div>lol</div>
 </div>

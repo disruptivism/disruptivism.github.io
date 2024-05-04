@@ -26,7 +26,7 @@
 		<div class="w-[2px] h-32 bg-ctp-subtext0 m-10"></div>
 		<div>The Future</div>
 	</div>
-	<div class=" text-ctp-subtext1 text-3xl text-center ">
+	<div class=" text-ctp-subtext1 text-3xl text-center">
 		Find our lord and saviour through the power of Disruption.<br />
 		Join our community today.<br />
 		Find eternal salvation in Philip Mackessy.
