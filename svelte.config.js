@@ -13,6 +13,7 @@ const config = {
 			pages: "build",
 			assets: "build",
 		}),
+		appDir: 'app',
 	}
 };
 
