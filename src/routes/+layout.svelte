@@ -1,7 +1,7 @@
 <script>
-	import '../app.css';
-	import Nav from './Nav.svelte';
-	import PageFooter from './page_footer.svelte';
+	import '/src/app.css';
+	import Nav from '../lib/components/Nav.svelte';
+	import PageFooter from '../lib/components/page_footer.svelte';
 </script>
 
 <div class="sticky top-0 z-50">

@@ -34,7 +34,7 @@
 </div>
 <div class=" bg-ctp-text h-[33vh] w-screen flex flex-row items-center justify-center">
 	<div class="flex flex-col items-center justify-center">
-		<div class="text-8xl text-ctp-surface0 italic uppercase">Achive complete disruption.</div>
+		<div class="text-8xl text-ctp-surface0 uppercase">Achive complete disruption.</div>
 		<div class="w-[90rem] flex flex-row justify-start">
 			<div class="will-grow animate-grow h-[2px] w-[90rem] bg-ctp-surface0 m-2 origin-left"></div>
 		</div>
@@ -43,7 +43,7 @@
 <div
 	class=" bg-ctp-base h-[calc(67vh-80px)] w-screen flex flex-col items-center justify-center text-ctp-text text-5xl"
 >
-	<div>Upcoming Events</div>
+	<div>Disruptivist News</div>
 	<div class="flex flex-row items-center justify-center m-4">
 		<div class="w-96 h-60 bg-ctp-text m-4"></div>
 		<div class="w-96 h-60 bg-ctp-text m-4"></div>

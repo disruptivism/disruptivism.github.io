@@ -1,14 +1,5 @@
-<script >
-	import { onMount } from 'svelte';
-
-	$: dark = false;
-	$: loaded = false;
-
-	// @ts-expect-error --- body cannot be undefined as loaded cannot be true until onMount ---
-	$: if (loaded) document.querySelector('body').classList.toggle('dark', dark);
-	onMount(() => {
-		loaded = true;
-	});
+<script>
+	export let data;
 </script>
 
 <div
@@ -20,15 +11,21 @@
 	<div class="flex flex-row items-center gap-4">
 		<a href="/" class="hover:text-ctp-subtext0 transition-colors duration-300">Home</a>
 		<span class="w-[1px] h-8 bg-ctp-subtext1"></span>
-		<a href="/locations" class="hover:text-ctp-subtext0 transition-colors duration-300">Locations</a>
+		<a href="/forums" class="hover:text-ctp-subtext0 transition-colors duration-300">Forums</a>
 		<span class="w-[1px] h-8 bg-ctp-subtext1"></span>
-		<a href="/texts" class="hover:text-ctp-subtext0 transition-colors duration-300">Texts</a>
+		<a href="/texts" class="hover:text-ctp-subtext0 transition-colors duration-300">Sacred Texts</a>
 		<span class="w-[1px] h-8 bg-ctp-subtext1"></span>
 		<a href="/about" class="hover:text-ctp-subtext0 transition-colors duration-300">About Us</a>
 	</div>
-	<button on:click={() => (dark = !dark)} class="flex flex-row items-center gap-1">
-		<div class="">light</div>
-		<div>/</div>
-		<di class=" underline">dark</di>
-	</button>
+	<div>
+		{#if !data}
+			<div class="flex flex-row items-center justify-center">
+				<a href="/login" class=" hover:text-ctp-subtext0 transition-colors duration-300">login</a>
+				<div class="m-2">or</div>
+				<a href="signup" class=" hover:text-ctp-subtext0 transition-colors duration-300">signup</a>
+			</div>
+		{:else}
+			test 1
+		{/if}
+	</div>
 </div>
